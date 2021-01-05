@@ -10,3 +10,26 @@
 ## 🚀 Quick start
 
 Default template for staring new project with some Root css and a list of gatsby plugin
+
+---
+
+### That is a simple blog realized with MDX plugin
+
+Ho aggiunto altre estensioni per migliorare il risultato
+
+- gsap
+- transition link
+- manifest
+- instagram source
+- Prism
+
+### Risultato
+
+E' venuto bene, mancano ancora un po idea generale di styling e di capacità di ragionare in base alla
+navigabilità del sito.
+
+Sarebbe di aiuto se mai qualcuno leggesse questa cosa e volesse fare qualcosa:
+
+- dare indicazione rispetto alla pagina in cui ci si trova
+- rifare il vettoriale dell' ** Hero Component **
+- Migliorare lo spacing e l'organizzazione del global css

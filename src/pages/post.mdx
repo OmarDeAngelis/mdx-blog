@@ -1,0 +1,48 @@
+import { Link } from "gatsby";
+
+<div className='section mdx-section'>
+
+# My First Post
+
+** Famo una prova ** Salvia etsy bicycle rights gentrify,
+direct trade fingerstache single-origin coffee sartorial. Gastropub subway
+tile echo park coloring book, seitan typewriter af umami tofu craft beer synth chartreuse.
+You probably haven't
+
+<h1 title="true">How to set a Simple React Counter</h1>
+
+```jsx
+const Counter = () => {
+  const [value, setValue] = React.useState(0);
+  React.useEffect(() => {
+    const timer = setTimeout(() => {
+      setValue(value + 1);
+    }, 4000);
+    return () => clearTimeout(timer);
+  });
+
+  return (
+    <div>
+      <h3> {value}</h3>
+      <button
+        style={{
+          background: "red",
+          borderRadius: "16px",
+          padding: "0.2rem 0.8rem",
+        }}
+        onClick={() => setValue(0)}
+      >
+        {" "}
+        Reset{" "}
+      </button>
+    </div>
+  );
+};
+```
+
+<Example />
+
+<Counter />
+
+<MDXLink internalLink = 'true' url='/posts'> All Post </MDXLink>
+</div>
